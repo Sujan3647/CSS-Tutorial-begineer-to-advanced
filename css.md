@@ -205,3 +205,78 @@ photo left a aiya porbo
 //2n means 2 ghor pore pore color change hoibo
 
 ```
+
+## Shadow in css
+
+```
+1. text-shadow = 0px 0px 0px grey;
+
+// text a shadow aibo .. 
+first px ta + hoile right a
+minus hoile left a
+// second px positive number hoile down
+minus hoile upore
+// thrid is the blur
+// 4rd one always is color
+
+2. text-shadow = 10px 10px 10px grey, -10px -12px -2px red;
+// dui ta shadow use korte parba ...sundor hoi
+
+
+3. box-shadow: 5px 5px 5px black;
+// same but box hoiya shadow hoi
+
+```
+
+## Icon in CSS
+```
+https://fontawesome.com/
+
+
+here you get the icons
+```
+
+## Transform in Css
+
+```
+1. transform: translateX(150px) 
+// suppose if have abox , that box have this properties then the box .. will shift to right.. if minus then left .. much more jaibo
+
+2. transform: translateY(150px) // its for up &
+ down approach
+
+3. transform: translate(120px, 100px) // eta eek sathe o kora jai .. just X or Y thakto na
+
+4. transform: rotateX(180deg) // 180 deg hoiya jaibo box er bitore  data
+ 
+5. transform: rotateY(180deg)
+
+6. transform: rotateZ(180deg)
+
+7. transform: scaleX(2) // koto tuk spread hoi.. right left approach
+
+8. transform: scaley(2) // koto tuk spread hoi.. up down approach
+
+9. transform: scale(2, 3) // if ek sathe
+
+10. transform: skewX(45deg) // ata box oi left right approach hoiya jai degree te
+
+11. transform: skewY(45deg) // same but up down approach
+
+12. transform: skew(45deg, 45deg) // ek sathe hoile
+
+
+// ai sobti eksathe o use kora jai
+
+13. transform: (1, 0, 0, 1, 0, 0)
+// matrix combines the folllowing 
+// scaleX()
+//SkewY()
+// skewX()
+// scaleY()
+// translateX()
+// translateY()
+
+
+```
+
