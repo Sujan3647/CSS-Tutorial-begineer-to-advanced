@@ -168,3 +168,40 @@ photo left a aiya porbo
    // eda same jaiba oi thake but scroll korle upore diya jai ga
 
 ``
+
+
+## Pseudo in css
+```
+1. a:link{
+
+}// atype a use korle link re activity change koron jaibo
+
+2. a:visited{
+
+}// atype use korle visit korar por aber j page amu ..ata re change koron jaibo
+
+3. a:hover{
+
+}// ata use korle j somoi cursor anmu oi time a live activity change korte parmu
+
+4. a:active{
+
+}// ai bhabe use korle jodi link click kori age  change hoibo tar properties jda dimu.. tar por kam korbo
+
+5. li:nth-child(1){
+
+}
+
+// li ul edi html a banan pore.. jodi ami li re edit korte chai amne korte parmu..(number) j lekhmu oi number li er access paiya lamu
+
+6. li:nth-child(odd){
+
+}// odd, even o use korte parmu
+
+7. li:nth-child(2n){
+
+}
+
+//2n means 2 ghor pore pore color change hoibo
+
+```
