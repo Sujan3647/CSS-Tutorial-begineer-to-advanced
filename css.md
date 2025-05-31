@@ -2,7 +2,7 @@
 
 ## Font in CSS
 
-```CSS
+```
 
 1. Color : red ; // changing the text color
 
@@ -21,6 +21,8 @@
 // dotted, wavy, cyan dotted  .. use kora jai
 
 6. font-size: 18px;  // font er size contron kora jai
+
+7. text-align: center: // text center a aiye
 
 
 
@@ -97,3 +99,72 @@
 
 
 ```
+
+## Margin in CSS
+```
+1. margin: 0px; // margin is the space of an element
+
+2. padding: 0px; // padding is the space between contact & border
+
+
+ 3. margin-top: 50px;
+            margin-left: 50px;
+            margin-bottom: 50px;
+            margin-right: 50px;
+// same process to shift by using left, bottom, right
+
+4. margin: 50%; // we can also use percentage in margin
+
+5. margin-left: auto; // box ta ekdom right a jaibo ga page er  // space aiya porbo left diya
+
+6. margin-right: auto;  / box ta ekdom left a jaibo ga page er  // space aiya porbo right diya
+
+// jodi 5 + 6 er sathe use kori.. horizonatally middle aiya porbo responsive type a 
+
+```
+
+## Float in css
+
+```
+1. float: left; // suppose ami ekta photo add korsi..photo sathe niche onnek text ache ..
+// right to obiviosly gap thakbo
+
+// jodi ai properties use kori
+photo left a aiya porbo
+// r left di photo right a aiya porbo 
+
+2. float: right;
+// same oi photo right a
+// text sob left a same row te ---
+
+
+// problem same line a suro hoibo
+// akhon ki bhabe niche antam
+
+3. clear: right; // jodi float: right; thake clear: right; left thakle left
+
+4. clear : both; //  eda hoile to perfect 
+
+```
+
+## Position in css
+
+```
+1. position: static; // eda kichu change hoito na.. eda defaultv thake
+
+2. position: relative; // eda hoile position re change korte parmu
+
+2. a.   top: 50px;
+   b.   left: 50px; // eda hoile px means empty space hoibo ki
+
+3. position: absolute; // absolute means , eda ignore  boro.
+// box ase, tar niche text ache.. absolute dile text ta box er piche aiya porbo.. ignore koira   
+
+4. position: fixed; // etar position fixed thakbo.. scrool korle o.. tar pichone o textc thakbo
+
+5. position: sticky; // eda hoile same jaiga te oi thakbo
+
+   but  ai khane- top, bottom, left, right use korte oi hoibo..
+   // eda same jaiba oi thake but scroll korle upore diya jai ga
+
+``
